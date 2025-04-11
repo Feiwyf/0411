@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sketch</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <script src="libraries/p5.min.js"></script>
+    <script src="libraries/p5.sound.min.js"></script>
+  </head>
+
+  <body>
+    <!-- 新增選單 -->
+    <nav>
+      <ul class="menu">
+        <li><a href="#home">首頁</a></li>
+        <li><a href="#about">自我介紹</a></li>
+        <li class="dropdown">
+          <a href="#portfolio">作品集</a>
+          <ul class="submenu">
+            <li><a href="https://hackmd.io/@wyf/ByU7dIr9yg" target="content-frame">第一周</a></li>
+            <li><a href="https://hackmd.io/@wyf/HkaGfvenkl" target="content-frame">第二周</a></li>
+            <li><a href="https://hackmd.io/@wyf/BksssmZhkg" target="content-frame">第三周</a></li>
+            <li><a href="https://feiwyf.github.io/20250328/" target="content-frame">第四周</a></li>
+          </ul>
+        </li>
+        <li><a href="#quiz">測驗卷</a></li>
+        <li><a href="#tutorials">教學影片</a></li>
+      </ul>
+    </nav>
+
+    <!-- iframe 顯示內容 -->
+    <iframe id="content-frame" src="" frameborder="0"></iframe>
+
+    <!-- sketch.js 動畫 -->
+    <script src="sketch.js"></script>
+  </body>
+</html>
